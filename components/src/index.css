@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    html , body{
+       scroll-behavior: smooth;
+    }
+    .sidebar::-webkit-scrollbar {
+        width: 0;
+    }
+}
